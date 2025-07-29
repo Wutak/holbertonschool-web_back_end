@@ -7,7 +7,11 @@ from 1-wait_n import wait_n
 
 
 def measure_time(n: int, max_delay: int) -> float:
-    """runtime"""
+    """runtime
+    Args:
+        n(int), max_delay(int)
+    Returns:
+        float, total_time / n"""
     start = time.time()
     asyncio.run(wait_n(n, max_delay))
     end = time.time()
