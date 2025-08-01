@@ -11,9 +11,9 @@ async def async_generator():
     """
     coroutine async generator
 
-        Args: i
+    loops 10 times and wait 1 sec
 
-        Returns: i
+    returns a random number between 0 and 10
     """
 
     for i in range(10):
